@@ -72,13 +72,13 @@
 #define X_DIR_PIN                            130
 #define X_ENABLE_PIN                         128
 
-#define Y_STEP_PIN                           132
-#define Y_DIR_PIN                            133
-#define Y_ENABLE_PIN                         131
-
-#define Z_STEP_PIN                           135
-#define Z_DIR_PIN                            136
-#define Z_ENABLE_PIN                         134
+#define Z_STEP_PIN                           132
+#define Z_DIR_PIN                            133
+#define Z_ENABLE_PIN                         131
+// Swapped with Y for mylab.ai
+#define Y_STEP_PIN                           135
+#define Y_DIR_PIN                            136
+#define Y_ENABLE_PIN                         134
 
 #define E0_STEP_PIN                          138
 #define E0_DIR_PIN                           139
@@ -206,7 +206,7 @@
     #define ST7920_DELAY_1         DELAY_NS(96)
     #define ST7920_DELAY_2         DELAY_NS(48)
     #define ST7920_DELAY_3         DELAY_NS(600)
-        
+
     // #define BOARD_ST7920_DELAY_1    DELAY_NS(96)
     // #define BOARD_ST7920_DELAY_2    DELAY_NS(48)
     // #define BOARD_ST7920_DELAY_3    DELAY_NS(600)
