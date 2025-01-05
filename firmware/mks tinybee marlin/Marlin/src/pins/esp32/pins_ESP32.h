@@ -52,14 +52,15 @@
 #define X_ENABLE_PIN                         130
 //#define X_CS_PIN                             0
 
-#define Y_STEP_PIN                           131
-#define Y_DIR_PIN                            132
-#define Y_ENABLE_PIN                         133
+#define Z_STEP_PIN                           131
+#define Z_DIR_PIN                            132
+#define Z_ENABLE_PIN                         133
 //#define Y_CS_PIN                            13
 
-#define Z_STEP_PIN                           134
-#define Z_DIR_PIN                            135
-#define Z_ENABLE_PIN                         136
+// Swapped with Y for mylab.ai
+#define Y_STEP_PIN                           134
+#define Y_DIR_PIN                            135
+#define Y_ENABLE_PIN                         136
 //#define Z_CS_PIN                             5  // SS_PIN
 
 #define E0_STEP_PIN                          137
