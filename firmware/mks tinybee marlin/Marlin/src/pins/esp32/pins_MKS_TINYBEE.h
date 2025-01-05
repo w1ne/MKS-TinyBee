@@ -50,9 +50,9 @@
 //
 // Limit Switches
 //
-#define X_STOP_PIN                            33
-#define Y_STOP_PIN                            32
-#define Z_STOP_PIN                            22
+#define Z_STOP_PIN                            33
+#define X_STOP_PIN                            32
+#define Y_STOP_PIN                            22
 //#define FIL_RUNOUT_PIN                        35
 
 //
@@ -68,14 +68,14 @@
 //
 // Steppers
 //
-#define X_STEP_PIN                           129
-#define X_DIR_PIN                            130
-#define X_ENABLE_PIN                         128
+#define Z_STEP_PIN                           129
+#define Z_DIR_PIN                            130
+#define Z_ENABLE_PIN                         128
 
-#define Z_STEP_PIN                           132
-#define Z_DIR_PIN                            133
-#define Z_ENABLE_PIN                         131
-// Swapped with Y for mylab.ai
+#define X_STEP_PIN                           132
+#define X_DIR_PIN                            133
+#define X_ENABLE_PIN                         131
+
 #define Y_STEP_PIN                           135
 #define Y_DIR_PIN                            136
 #define Y_ENABLE_PIN                         134
