@@ -737,10 +737,10 @@
  * details can be tuned in Configuration_adv.h
  */
 
-#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
-#define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
-#define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
-#define THERMAL_PROTECTION_COOLER  // Enable thermal protection for the laser cooling
+// #define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
+// #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
+// #define THERMAL_PROTECTION_CHAMBER // Enable thermal protection for the heated chamber
+// #define THERMAL_PROTECTION_COOLER  // Enable thermal protection for the laser cooling
 
 //===========================================================================
 //============================= Mechanical Settings =========================
@@ -927,7 +927,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 80, 400 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 150, 150, 150, 150 }
 
 /**
  * Default Max Feed Rate (mm/s)
